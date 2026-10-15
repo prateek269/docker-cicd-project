@@ -4,7 +4,7 @@ const app = express();
 const PORT = 3000;
 
 app.get("/", (req, res) => {
-  res.send("Docker + CI/CD Project is Running!");
+  res.send("Version 2: Automatic Deployment Successful!");
 });
 
 app.listen(PORT, () => {
